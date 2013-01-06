@@ -1,5 +1,5 @@
 #!/bin/sh
-MAKE="50"
+MAKE="256"
 
 ## Set compiler location
 echo Setting compiler location...
