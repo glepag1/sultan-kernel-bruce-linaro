@@ -1,6 +1,6 @@
 #
 # Automatically generated make config: don't edit
-# Linux/arm 3.0.55-sultan-kernel-r9 Kernel Configuration
+# Linux/arm 3.0.57 Kernel Configuration
 #
 CONFIG_ARM=y
 CONFIG_SYS_SUPPORTS_APM_EMULATION=y
@@ -1286,6 +1286,8 @@ CONFIG_WLAN=y
 # CONFIG_LIBRA_SDIOIF is not set
 # CONFIG_ATH_COMMON is not set
 # CONFIG_BCM4329 is not set
+CONFIG_BCM4329_FW_PATH="/system/etc/firmware/fw_bcm4329.bin"
+CONFIG_BCM4329_NVRAM_PATH="/proc/calibration"
 CONFIG_BCMDHD=m
 CONFIG_BCMDHD_FW_PATH="/vendor/firmware/fw_bcmdhd.bin"
 CONFIG_BCMDHD_NVRAM_PATH="/proc/calibration"
@@ -1298,7 +1300,7 @@ CONFIG_BCMDHD_NVRAM_PATH="/proc/calibration"
 # CONFIG_WL12XX_PLATFORM_DATA is not set
 # CONFIG_MWIFIEX is not set
 # CONFIG_QUALCOMM_WLAN is not set
-# CONFIG_BCM4329_248 is not set
+CONFIG_BCM4329_248=m
 # CONFIG_BCM4330B2 is not set
 
 #
